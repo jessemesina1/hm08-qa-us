@@ -127,7 +127,7 @@ module.exports = {
 
     showCarSearchModal: async function() {
         //const ppCloseButton = await $(this.ppCloseButton);
-        const orderButton = await $(this.orderButton);
+        const orderCarButton = await $(this.orderCarButton);
         const carSearchModal = await $(this.carSearchModal);
     
     },
