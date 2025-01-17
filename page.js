@@ -117,7 +117,7 @@ module.exports = {
         await orderingABlanketAndHandkerchiefsSelector.click();
     },
 
-    orderIceCreams: async function (quantity) {
+    orderIceCreams: async function () {
         const iceCreamCounterPlusButton = await $(this.iceCreamCounterPlusButton);
         await iceCreamCounterPlusButton.waitForClickable({ timeout: 30000 });
         await iceCreamCounterPlusButton.click();
@@ -126,7 +126,7 @@ module.exports = {
     },
 
     showCarSearchModal: async function() {
-        const ppCloseButton = await $(this.ppCloseButton);
+        //const ppCloseButton = await $(this.ppCloseButton);
         const orderButton = await $(this.orderButton);
         const carSearchModal = await $(this.carSearchModal);
     
