@@ -81,6 +81,7 @@ describe('Create an order', () => {
             await page.submitPhoneNumber(phoneNumber);
             const actualMessage = 'Test message.';
             await page.addMessageToTheDriver(actualMessage);
+            //await page.showCarSearchModal();
             const orderCarButton = await $(page.orderCarButton);
             await orderCarButton.waitForDisplayed();
             await orderCarButton.click();

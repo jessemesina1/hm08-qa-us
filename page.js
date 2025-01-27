@@ -125,11 +125,12 @@ module.exports = {
         console.log
     },
 
-    showCarSearchModal: async function() {
-        //const ppCloseButton = await $(this.ppCloseButton);
+    showCarSearchModal: async function () {
+        const ppCloseButton = await $(this.ppCloseButton);
         const orderCarButton = await $(this.orderCarButton);
         const carSearchModal = await $(this.carSearchModal);
-    
+        
+
     },
 
 
