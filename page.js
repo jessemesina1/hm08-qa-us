@@ -124,11 +124,10 @@ module.exports = {
         await iceCreamCounterPlusButton.click();
         console.log
     },
-
     showCarSearchModal: async function () {
-        const ppCloseButton = await $(this.ppCloseButton);
-        const orderCarButton = await $(this.orderCarButton);
-        const carSearchModal = await $(this.carSearchModal);
+        //const ppCloseButton = await $(this.ppCloseButton);
+        //const orderCarButton = await $(this.orderCarButton);
+        //const carSearchModal = await $(this.carSearchModal);
         
 
     },
